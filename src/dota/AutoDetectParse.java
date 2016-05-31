@@ -1,6 +1,8 @@
 package dota;
 
-/**  This class, Auto-Detect Parser, which automatically figures out what kind of input we give, then calls the appropriate parser. 
+/** 
+ * @author abhishek.bagati@gmail.com
+ * This class, Auto-Detect Parser, which automatically figures out what kind of input we give, then calls the appropriate parser. 
  * the output is returned as a atring and we can use it as an input for the opennlp classes.
  *
  */

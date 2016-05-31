@@ -1,7 +1,7 @@
 package dota;
 /**
  * initially written for just parsing ODF files, but autodetectparser does a better job.
- * 
+ * @author abhishek.bagati@gmail.com
  */
 import java.io.File;
 import java.io.FileInputStream;

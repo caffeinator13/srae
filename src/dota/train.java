@@ -1,5 +1,6 @@
 package dota;
 /**
+ * @author abhishek.bagati@gmail.com
  * This class takes any input file and gives the output as suitable for our training data(in sentences) into a out.txt file
  * we can use this and annotate as required for our training data * 
  */

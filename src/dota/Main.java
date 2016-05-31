@@ -1,8 +1,10 @@
 package dota;
 /**
  * This is the Main class!
- * 
+ * @author abhishek.bagati@gmail.com
  */
+
+import java.util.Arrays;
 
 import org.xml.sax.ContentHandler;
 
@@ -12,22 +14,18 @@ public class Main {
 	    {
 		 ContentHandler handler = AutoDetectParse.autoDetectParse();
 		 Opennlp.Tokenize(handler.toString());
-	     String[] tokens = Opennlp.Tokenize(handler.toString());
-	     Opennlp.findName(tokens);
-	     Opennlp.findDate(tokens);
-	     Opennlp.findPercentage(tokens);
-	     Opennlp.findLocation(tokens);
-	     Opennlp.findOrganization(tokens);
-	      // Opennlp.findPincode(tokens);
-	     //   Opennlp.chunk(handler.toString());
-	      //  String[] chunkedData = Opennlp.chunk(handler.toString());
-	     //  // (Str.toString());
-	      //  String s = chunkedData.toString();
-	     //   String delims = "[NNP]";
-	     //  String[] data = s.split(delims);	         
-	     //  for (String q : data)
-	   	//	System.out.println(q);
-	      // System.out.println(data);
+	    String[] tokens = Opennlp.Tokenize(handler.toString());
+	    Opennlp.findName(tokens);
+	    Opennlp.findDate(tokens);
+	    Opennlp.findPercentage(tokens);
+	    Opennlp.findLocation(tokens);
+	    Opennlp.findOrganization(tokens);
+		Opennlp.POSTag(handler.toString());
+	    Opennlp.chunk(handler.toString());
+	    Opennlp.Parse(handler.toString());
+	    //extracts nouns!
+		System.out.println("Name : " + java.util.Arrays.toString(Opennlp.extractNoun(Opennlp.POSTagNOPerformanceMonitor(handler.toString()))));
+	      
 	       
 	    }
  
