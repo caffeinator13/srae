@@ -25,16 +25,15 @@ import org.xml.sax.SAXException;
 import opennlp.tools.util.InvalidFormatException;
 
 /**
- * Hello world!
- *
+ * this is a duplicate of AutoDetectParse.java which can be directly used to get the output
+ * into a textfile.
  */
 public class train
 {
-    public static void main( String[] args) throws InvalidFormatException, IOException
+    public static void main(String[] args) throws Exception
     {
     	
-        String target = "C:/Users/abhis/Desktop/Indian Baby Names ( Boys,Gilrs) (1).xls";
-        File document = new File(target);
+        File document = new File(Inputfile.getFileName());
         Parser parser = new AutoDetectParser();
         
         ContentHandler handler = new BodyContentHandler(-1);
@@ -53,6 +52,7 @@ public class train
         } catch (TikaException e) {
           e.printStackTrace();
         }
+       // String[] tokens = Opennlp.Tokenize(handler.toString());
         PrintStream console = System.out;
         File file = new File("out.txt");
         FileOutputStream fos = new FileOutputStream(file);
@@ -60,7 +60,10 @@ public class train
 		System.setOut(ps);
         //System.out.println(metadata);
         //System.out.println(handler.toString());
+		//Opennlp.Tokenize(handler.toString());
         Opennlp.SentenceDetect(handler.toString());
         System.setOut(console);
+        System.out.println("Done!");
         }
+    
     }

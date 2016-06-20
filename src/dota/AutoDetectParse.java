@@ -11,7 +11,9 @@ package dota;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;
@@ -27,14 +29,7 @@ public class AutoDetectParse
 {
     public static ContentHandler autoDetectParse() throws Exception
     {
-    	
-    	
-    	String fileName = Inputfile.getFileName();
-        //System.out.println(fileName);
-       
-        String target = fileName;
-        
-        File document = new File(target);
+        File document = new File(Inputfile.getFileName());
         Parser parser = new AutoDetectParser();
         
         ContentHandler handler = new BodyContentHandler();
@@ -42,7 +37,7 @@ public class AutoDetectParse
         
         try {
           parser.parse(new FileInputStream(document), handler, metadata, new ParseContext());
-          
+         // System.out.println(metadata);
           
         } catch (FileNotFoundException e) {
           e.printStackTrace();
@@ -53,21 +48,20 @@ public class AutoDetectParse
         } catch (TikaException e) {
           e.printStackTrace();
         }
+       /** PrintStream console = System.out;
+        File file = new File("out.txt");
+        FileOutputStream fos = new FileOutputStream(file);
+		PrintStream ps = new PrintStream(fos);
+		System.setOut(ps);
+        //System.out.println(metadata);
+        //System.out.println(handler.toString());
+        Opennlp.SentenceDetect(handler.toString());
+        System.setOut(console);*/
 		return handler;
         
         
-        //System.out.println(metadata);
-        //System.out.println(handler.toString());
-        //Opennlp.SentenceDetect(handler.toString());
-     //  Opennlp.Tokenize(handler.toString());
-    //   System.out.println(Tokens);
-     //  Opennlp.findName(tokens);
- 
         
-       
-      //  Opennlp.POSTag(handler.toString());
-      //  Opennlp.chunk(handler.toString());
-       
+        
     
      
     }

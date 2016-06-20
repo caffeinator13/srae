@@ -11,15 +11,22 @@ import java.io.InputStream;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
-
-
+import java.util.Set;
 
 import opennlp.tools.chunker.ChunkerME;
 import opennlp.tools.chunker.ChunkerModel;
 import opennlp.tools.cmdline.PerformanceMonitor;
 import opennlp.tools.cmdline.parser.ParserTool;
 import opennlp.tools.cmdline.postag.POSModelLoader;
+import opennlp.tools.coref.DefaultLinker;
+import opennlp.tools.coref.DiscourseEntity;
+import opennlp.tools.coref.Linker;
+import opennlp.tools.coref.LinkerMode;
+import opennlp.tools.coref.TreebankLinker;
+import opennlp.tools.coref.mention.DefaultParse;
+import opennlp.tools.coref.mention.Mention;
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.namefind.TokenNameFinderModel;
 import opennlp.tools.parser.Parse;
@@ -43,7 +50,7 @@ import opennlp.tools.util.Span;
 
 public class Opennlp {
 	// private static String token[] = tokens;
-	public static void SentenceDetect(String input) throws InvalidFormatException,
+	public static String[] SentenceDetect(String input) throws InvalidFormatException,
 	IOException {
 		
 // always start with a model, a model is learned from training data
@@ -52,11 +59,13 @@ SentenceModel model = new SentenceModel(is);
 SentenceDetectorME sdetector = new SentenceDetectorME(model);
 String sentences[] = sdetector.sentDetect(input);
 //System.out.println(input);
+/**
  for(int i=0;i<sentences.length;i++){
 System.out.println(sentences[i]);
 
 is.close();
-} 
+} */
+return sentences; 
 
 }
 	public static String[] Tokenize(String input) throws InvalidFormatException, IOException {
@@ -67,9 +76,9 @@ is.close();
 		Tokenizer tokenizer = new TokenizerME(model);
 	 
 		String[] tokens = tokenizer.tokenize(input);
-	 
+	 /**
 		for (String a : tokens)
-			System.out.println(a);
+			System.out.println(a); */
 	 
 		is.close();
 		
@@ -143,6 +152,51 @@ is.close();
 			System.out.println("Found Pincode: " + Arrays.toString(Span.spansToStrings(nameSpans, input)));
 				
 	} 
+	public static String findSkills(String[] input) throws IOException {
+		InputStream is = new FileInputStream("skillsModel.bin");
+	 
+		TokenNameFinderModel model = new TokenNameFinderModel(is);
+		is.close();
+	 
+		NameFinderME nameFinder = new NameFinderME(model);
+		    Span nameSpans[] = nameFinder.find(input);
+			System.out.println("Found Skills: " + Arrays.toString(Span.spansToStrings(nameSpans, input)));
+				String skills = Arrays.toString(Span.spansToStrings(nameSpans, input));
+				return skills;
+	} 
+	public static void POSTagger(String input) throws InvalidFormatException, IOException{
+
+		POSModel model = new POSModelLoader()	
+				.load(new File("en-pos-maxent.bin"));
+		POSTaggerME tagger = new POSTaggerME(model);
+		//ObjectStream<String> lineStream = new PlainTextByLineStream(
+				//new StringReader(input));
+
+		{
+			
+				if (tagger != null) {
+					// Call Sentence Detector
+					String[] sentences = Opennlp.SentenceDetect(input);
+					for (String sentence : sentences) {
+						System.out.println("Sentence : " + sentence);
+					}
+					for (String sentence : sentences) {
+						String whitespaceTokenizerLine[] = WhitespaceTokenizer.INSTANCE
+										.tokenize(sentence);
+						String[] tags = tagger.tag(whitespaceTokenizerLine);
+						for (int i = 0; i < whitespaceTokenizerLine.length; i++) {
+							String word = whitespaceTokenizerLine[i].trim();
+							String tag = tags[i].trim();
+							System.out.println(word + ":" + tag);
+							
+						}
+					}
+				}
+				tagger = null;
+			}
+		
+
+	}
 	public static String POSTagNOPerformanceMonitor(String input) throws IOException {
 		POSModel model = new POSModelLoader()	
 				.load(new File("en-pos-maxent.bin"));
@@ -158,8 +212,10 @@ is.close();
 			String[] tags = tagger.tag(whitespaceTokenizerLine);
 	 
 			POSSample output = new POSSample(whitespaceTokenizerLine, tags);
-			 
-			System.out.println(output.toString());
+			/*** String[] tokens = Opennlp.Tokenize(input); */
+			//System.out.println(whitespaceTokenizerLine.length);
+			//System.out.println(tags.length); 
+			//System.out.println(output.toString());
 			 return output.toString();
 			
 		}
@@ -241,27 +297,31 @@ public static String[] chunk(String input) throws IOException {
 	
 	
 } 
-public static String Parse(String input) throws IOException {
+public static Parse[] Parse(String input) throws IOException {
 	InputStream modelIn = new FileInputStream("en-parser-chunking.bin");
 	
 	  ParserModel model = new ParserModel(modelIn);
 	  Parser parser = ParserFactory.create(model);
-	  Parse topParses[] = ParserTool.parseLine(input, parser, 1);
+	  Parse[] topParses = ParserTool.parseLine(input, parser, 1);
 	  
-		for (Parse p : topParses)
-			p.show();
-		
-		
-		String ParsedData = Arrays.toString(topParses);
-		System.out.println(ParsedData);
+		for (Parse p : topParses){
+				p.show();
+				getPhrases(p);
+		}
+		System.out.println("List of Noun Parse : "+nounPhrases);
+	 	System.out.println("List of Adjective Parse : "+adjectivePhrases);
+	 	System.out.println("List of Verb Parse : "+verbPhrases);
+		//String ParsedData = Arrays.toString(topParses);
+		//System.out.println(ParsedData);
 	 	modelIn.close();
-	 	return ParsedData;
+	 	return topParses;
 			
 }
-public static String[] extractNoun(String ParsedData) {
+
+public static String[] extractNoun(String TaggedData) {
     // Split String into array of Strings whenever there is a tag that starts with "._NN"
     // followed by zero, one or two more letters (like "_NNP", "_NNPS", or "_NNS")
-    String[] nouns = ParsedData.split("_NN\\w?\\w?\\b");
+    String[] nouns = TaggedData.split("_NN\\w?\\w?\\b");
     // remove all but last word (which is the noun) in every String in the array
     for(int index = 0; index < nouns.length; index++) {
         nouns[index] = nouns[index].substring(nouns[index].lastIndexOf(" ") + 1)
@@ -271,6 +331,28 @@ public static String[] extractNoun(String ParsedData) {
    
     return nouns;
 }
+static Set<String> nounPhrases = new HashSet<>();
+static Set<String> adjectivePhrases = new HashSet<>();
+static Set<String> verbPhrases = new HashSet<>();
+
+public static void getPhrases(Parse p) {
+	  if (p.getType().equals("NN") || p.getType().equals("NNS") ||  p.getType().equals("NNP") || p.getType().equals("NNPS")) {
+	          nounPhrases.add(p.getCoveredText());
+	  }
+
+	  if (p.getType().equals("JJ") || p.getType().equals("JJR") || p.getType().equals("JJS")) {
+	      adjectivePhrases.add(p.getCoveredText());
+	  }
+	     
+	  if (p.getType().equals("VB") || p.getType().equals("VBP") || p.getType().equals("VBG")|| p.getType().equals("VBD") || p.getType().equals("VBN")) {
+	      verbPhrases.add(p.getCoveredText());
+	   }
+	     
+	  for (Parse child : p.getChildren()) {
+	          getPhrases(child);
+	  }
+	}
+
 
 
 }
