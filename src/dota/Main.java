@@ -16,15 +16,15 @@ public class Main {
 		//Opennlp.Tokenize(handler.toString());
 	    String[] tokens = Opennlp.Tokenize(handler.toString());
 	    
-	   // Opennlp.Parse(handler.toString()); 
-		/**.POSTagger(handler.toString());
+	   Opennlp.Parse(handler.toString()); 
+		Opennlp.POSTagger(handler.toString());
 		Opennlp.findName(tokens);	
 	    Opennlp.findDate(tokens);	
 	    Opennlp.findPercentage(tokens);	
 	    Opennlp.findLocation(tokens);
 	    Opennlp.findOrganization(tokens);
-		//Opennlp.POSTag(handler.toString());
-	   // Opennlp.chunk(handler.toString());
+		Opennlp.POSTag(handler.toString());
+	   Opennlp.chunk(handler.toString());
 	    Opennlp.Parse(handler.toString()); 
 	    //extracts nouns! */
 		System.out.println("Name : " + java.util.Arrays.toString(Opennlp.extractNoun(Opennlp.POSTagNOPerformanceMonitor(handler.toString()))));

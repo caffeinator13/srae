@@ -52,7 +52,7 @@ public class Opennlp {
 	// private static String token[] = tokens;
 	public static String[] SentenceDetect(String input) throws InvalidFormatException,
 	IOException {
-		
+		System.out.println("SentenceDetect");
 // always start with a model, a model is learned from training data
 InputStream is = new FileInputStream("en-sent.bin");
 SentenceModel model = new SentenceModel(is);
@@ -69,6 +69,7 @@ return sentences;
 
 }
 	public static String[] Tokenize(String input) throws InvalidFormatException, IOException {
+		System.out.println("Tokenize");
 		InputStream is = new FileInputStream("en-token.bin");
 	 
 		TokenizerModel model = new TokenizerModel(is);
@@ -165,7 +166,7 @@ return sentences;
 				return skills;
 	} 
 	public static void POSTagger(String input) throws InvalidFormatException, IOException{
-
+		System.out.println("POSTagger");
 		POSModel model = new POSModelLoader()	
 				.load(new File("en-pos-maxent.bin"));
 		POSTaggerME tagger = new POSTaggerME(model);
@@ -255,6 +256,7 @@ return sentences;
 	
 //POStagger and Chunker	
 public static String[] chunk(String input) throws IOException {
+	System.out.println("chunk");
 	POSModel model = new POSModelLoader()
 			.load(new File("en-pos-maxent.bin"));
 	PerformanceMonitor perfMon = new PerformanceMonitor(System.err, "sent");
@@ -298,6 +300,7 @@ public static String[] chunk(String input) throws IOException {
 	
 } 
 public static Parse[] Parse(String input) throws IOException {
+	System.out.println("Parse");
 	InputStream modelIn = new FileInputStream("en-parser-chunking.bin");
 	
 	  ParserModel model = new ParserModel(modelIn);

@@ -1,0 +1,348 @@
+Java
+EJB
+RMI
+Swing
+CORBA
+Servelets
+JSP
+JDBC
+Core Java
+Struts
+framework
+Web sphere
+Web logic
+HTML
+XML
+Javascript
+J2EE
+J2ME
+DOT NET
+LDAP
+Internet Security
+JVM
+Pjava
+MIPS
+Tibco
+Board Design
+Ematrix
+XSL
+XSLT
+VB.NET
+ASP.NET
+ADO.NET
+VC++.NET
+C#
+COM
+DCOM
+Win runner
+Load runner
+Telecom Testing
+White box testing
+AIX testing
+Test cases
+Test director
+Test Suite
+Silk Test
+Mercury Testing
+rational Robo
+ISO9000
+SEICMM
+C/C++
+DSP
+Chip level designing
+Unix kernel architecture
+file system
+memory management
+RTOS
+L2
+VB
+VC++
+COM
+DCOM
+RDBMS
+SQL
+Sybase
+Networking
+Vx works
+design and code reviews
+QNX
+Net kernel
+Psos
+IRMK
+Firmware
+BIOS
+Assembly
+MPEG
+DVD
+MP3
+JPEG
+Set Top Box
+DVB
+Microprocessors
+Microcontrollers
+ADA
+AVIONICS
+D0178B
+Industrial Automation
+IBM Mainframe
+AS/400
+0s/390
+z/OS
+OS/400VAX/VMS
+COBOL
+CICS
+MVS
+DB2
+IDMSX
+IMS
+Tandem
+Natural ADABAS
+Xpeditor
+RPG
+JCL
+VSAM
+Networking S/W
+UNIX System Admin
+Windows NT Admin
+TCP/IP
+SPX
+X25
+Network Management
+SNMP
+CMIP
+NMS
+LAN/WAN
+MPLS
+FR
+ISDN
+BGP
+OSPF
+RTP
+IPV6
+SONET
+SDH
+ERP
+SAP
+SAP-SD/MM/PP
+FICO
+ABAP4
+Basis
+People Soft-HRM
+finance Module
+BAN
+Oracle Manufacturing
+CRM-Siebel
+Switching
+GSM
+GPRS
+UMTS
+3G
+Layer-C
+RLC
+RRC
+NodeB
+DSP
+TDMA
+CDMA
+WAP
+SS7
+ATM.
+FR
+VOIP-SIGTRAN
+MGCP
+MEGACO
+SIP
+H.323
+245
+TMN
+Signalling
+Bluetooth
+GPS
+Home
+Networking-JINI
+HAVI.
+X-Motif
+/NT/VMS
+Internalls
+kernels
+TCL/TK
+Multithreading
+Socket programming
+Storage Device
+Iscsi
+SCSI
+SAN
+Veritas
+Volume Manager
+RAID
+Fiber Channel
+NAS
+VC++
+DCOM
+ATL
+OOAD
+XML
+WDM
+Vxd
+WinSDK
+WINCE
+Palm
+EPOC
+WIN32
+API
+X-Windows
+DirectX
+ActiveX
+NET
+C#
+HARDWARE
+ASIC
+VLSI
+FPGA
+Verilog
+VHDL
+Xilinx
+Physical Design
+CMOS Design
+CMOS
+IC Design
+Synthesis
+EDA
+FPGA Design
+Board Design
+PCB Design
+Circuit Design
+Mixed Signal
+Analog Design
+Oracle 8i
+Oracle 10g
+Oracle 11i
+11i
+Oracle DBA
+SQL-DBA
+PB
+Delphi
+Data Modeling
+Data warehousing
+OLAP
+ROLAP
+DBA
+VB
+ASP
+COM
+DCOM
+NET
+C#
+PL/SQL
+Pro*C
+D2K
+CAD/CAM
+CAD
+CAE
+CAM
+Catia
+V4V5
+Pro-E
+Unigraphics
+Hypermesh
+IDEAS
+NASTRAN
+ANSYS
+Auto-cad
+SQA Quality
+Testing
+Implementation
+Level 4
+Level 5
+ISO
+Six Sigma
+Technical writers
+architects
+Lotus
+Notes
+System Administrator
+SUN
+SOLARIS
+Cloud
+Distributed Computing
+Cloud Computing
+Big Data
+Hadoop
+Amazon
+Web Services
+Statistical Analysis
+Data Mining
+SPSS
+Data Analysis
+Mobile Development
+Swift
+Xamarin
+PhoneGap
+iOS Development
+Android Development
+Network and Information
+Security Network
+Security Vulnerability Assessment
+Computer Forensics
+Forensics
+Cryptography
+User Interface Design
+Interaction Design
+User Experience Design
+Wireframes
+Mobile Design
+Accessibility
+Perl/Python/Ruby
+Python
+Ruby
+perl
+Rails
+Virtualization
+VMware
+vSphere
+VMware
+Workstation
+Hyper-V
+Business
+Intelligence
+Tableau
+QlikView
+Crystal
+Reports
+Database Management
+SQL
+MySQL
+Microsoft
+SQL Server
+Database Administration
+Database Management
+Software Engineer
+SQL
+Java
+Tapestry
+JSF
+Spring
+Struts
+Stripes
+Seam
+GWT
+RIFE
+Wicket
+OpenXava
+JavaScript
+C#
+C++
+Python
+PHP
+CakePHP
+CodeIgniter
+ThinkPHP
+Laravel
+Symphony
+Yii
+Ruby
+iOS
+Swift
+Spring
+Eclipse
+Tomcat
