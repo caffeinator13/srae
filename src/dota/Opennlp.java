@@ -52,7 +52,7 @@ public class Opennlp {
 	// private static String token[] = tokens;
 	public static String[] SentenceDetect(String input) throws InvalidFormatException,
 	IOException {
-		System.out.println("SentenceDetect");
+		//System.out.println("SentenceDetect");
 // always start with a model, a model is learned from training data
 InputStream is = new FileInputStream("en-sent.bin");
 SentenceModel model = new SentenceModel(is);
@@ -77,8 +77,8 @@ return sentences;
 		Tokenizer tokenizer = new TokenizerME(model);
 	 
 		String[] tokens = tokenizer.tokenize(input);
-	 /**
-		for (String a : tokens)
+	 
+	/**	for (String a : tokens)
 			System.out.println(a); */
 	 
 		is.close();
