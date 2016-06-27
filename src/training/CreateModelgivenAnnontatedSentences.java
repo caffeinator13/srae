@@ -20,31 +20,29 @@ import opennlp.tools.util.ObjectStream;
 import opennlp.tools.util.PlainTextByLineStream;
 
 public class CreateModelgivenAnnontatedSentences {
-                static String onlpModelPath = "modelname.bin";
-                // training data set
-                static String trainingDataFilePath = "annotatedsentences.txt";
+	static String onlpModelPath = "modelname.bin";
+	// training data set
+	static String trainingDataFilePath = "annotatedsentences.txt";
 
-                @SuppressWarnings("deprecation")
-				public static void main(String[] args) throws IOException {
-                                Charset charset = Charset.forName("UTF-8");
-                                ObjectStream<String> lineStream = new PlainTextByLineStream(
-                                                                new FileInputStream(trainingDataFilePath), charset);
-                                ObjectStream<NameSample> sampleStream = new NameSampleDataStream(
-                                                                lineStream);
-                                TokenNameFinderModel model = null;
-                                HashMap<String, Object> mp = new HashMap<String, Object>();
-                                try {
-                                                model = NameFinderME.train("en", "entity", sampleStream, Collections.<String,Object>                                                                                                                emptyMap());
-                                } finally {
-                                                sampleStream.close();
-                                }
-                                BufferedOutputStream modelOut = null;
-                                try {
-                                                modelOut = new BufferedOutputStream(new FileOutputStream(onlpModelPath));
-                                                model.serialize(modelOut);
-                                } finally {
-                                                if (modelOut != null)
-                                                                modelOut.close();
-                                }
-                }
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) throws IOException {
+		Charset charset = Charset.forName("UTF-8");
+		ObjectStream<String> lineStream = new PlainTextByLineStream(new FileInputStream(trainingDataFilePath), charset);
+		ObjectStream<NameSample> sampleStream = new NameSampleDataStream(lineStream);
+		TokenNameFinderModel model = null;
+		HashMap<String, Object> mp = new HashMap<String, Object>();
+		try {
+			model = NameFinderME.train("en", "entity", sampleStream, Collections.<String, Object> emptyMap());
+		} finally {
+			sampleStream.close();
+		}
+		BufferedOutputStream modelOut = null;
+		try {
+			modelOut = new BufferedOutputStream(new FileOutputStream(onlpModelPath));
+			model.serialize(modelOut);
+		} finally {
+			if (modelOut != null)
+				modelOut.close();
+		}
+	}
 }

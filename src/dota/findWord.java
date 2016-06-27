@@ -1,5 +1,8 @@
 package dota;
-
+/**
+ * finding the experience in years 
+ * @author abhishek.bagati@gmail.com
+ */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,12 +13,8 @@ import java.io.InputStreamReader;
 public class findWord {
 	public static void experience() throws Exception {
 
-        //String path = ""; //ADD YOUR PATH HERE
-        //String fileName = "out.txt";
-        String testWord = "years"; //CHANGE THIS IF YOU WANT
+        String testWord = "years"; 
         File document = new File(Inputfile.getFileName());
-        
-        //String file = fileName;
         boolean check = true;
 
         try{
@@ -38,10 +37,12 @@ public class findWord {
 
                     		   for(int i=1;i<lineWords.length;i++){
                     		    if(lineWords[i].equals(testWord)){
-                    		    System.out.println("experience : " + lineWords[i-1] + ' ' + lineWords[i]);
+                    		    	//printing the token testword i.e., 'years'  and the token preceeding that
+                    		    	System.out.println("experience : " + lineWords[i-1] + ' ' + lineWords[i]);
                     		    break;
                     		    }
                     		   }
+                    		//to put back all the tokens into a sentence   
                   /**  for(int i=0;i<lineWords.length;i++){
                     	System.out.print(lineWords[i]+ ' ');
                     	 

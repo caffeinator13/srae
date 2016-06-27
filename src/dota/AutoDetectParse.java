@@ -7,7 +7,6 @@ package dota;
  *
  */
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -24,45 +23,36 @@ import org.apache.tika.sax.BodyContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
+public class AutoDetectParse {
+	public static ContentHandler autoDetectParse() throws Exception {
+		File document = new File(Inputfile.getFileName());
+		Parser parser = new AutoDetectParser();
 
-public class AutoDetectParse 
-{
-    public static ContentHandler autoDetectParse() throws Exception
-    {
-        File document = new File(Inputfile.getFileName());
-        Parser parser = new AutoDetectParser();
-        
-        ContentHandler handler = new BodyContentHandler();
-        Metadata metadata = new Metadata();
-        
-        try {
-          parser.parse(new FileInputStream(document), handler, metadata, new ParseContext());
-         // System.out.println(metadata);
-          
-        } catch (FileNotFoundException e) {
-          e.printStackTrace();
-        } catch (IOException e) {
-          e.printStackTrace();
-        } catch (SAXException e) {
-          e.printStackTrace();
-        } catch (TikaException e) {
-          e.printStackTrace();
-        }
-       /** PrintStream console = System.out;
-        File file = new File("out.txt");
-        FileOutputStream fos = new FileOutputStream(file);
-		PrintStream ps = new PrintStream(fos);
-		System.setOut(ps);
-        //System.out.println(metadata);
-        //System.out.println(handler.toString());
-        Opennlp.SentenceDetect(handler.toString());
-        System.setOut(console);*/
+		ContentHandler handler = new BodyContentHandler();
+		Metadata metadata = new Metadata();
+
+		try {
+			parser.parse(new FileInputStream(document), handler, metadata, new ParseContext());
+			// System.out.println(metadata);
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (SAXException e) {
+			e.printStackTrace();
+		} catch (TikaException e) {
+			e.printStackTrace();
+		}
+		/**
+		 * PrintStream console = System.out; File file = new File("out.txt");
+		 * FileOutputStream fos = new FileOutputStream(file); PrintStream ps =
+		 * new PrintStream(fos); System.setOut(ps);
+		 * //System.out.println(metadata);
+		 * //System.out.println(handler.toString());
+		 * Opennlp.SentenceDetect(handler.toString()); System.setOut(console);
+		 */
 		return handler;
-        
-        
-        
-        
-    
-     
-    }
+
+	}
 }
