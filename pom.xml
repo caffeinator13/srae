@@ -26,5 +26,10 @@
   		<artifactId>maven-dependency-plugin</artifactId>
   		<version>2.6</version>
   	</dependency>
+  	<dependency>
+ 		 <groupId>org.apache.opennlp</groupId>
+ 		 <artifactId>opennlp-tools</artifactId>
+ 		 <version>1.6.0</version>
+	</dependency>
   </dependencies>
 </project>

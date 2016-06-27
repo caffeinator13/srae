@@ -1,5 +1,9 @@
 package training;
-
+/**
+ * copy this code and paste it to a new class, add the resources and give the path to the files accordingly
+ * input resources: sentences.txt, blentities.txt(black listed) and knownentities.txt
+ * takes all the resources as input and gives the annotated sentences and the model.bin as output
+ */
 import java.io.File;
 
 

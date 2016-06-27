@@ -56,6 +56,7 @@ public class compare {
 			}
 		}
 		System.out.println(out);
+		
 		write(out, "common.txt");
 	}
 }

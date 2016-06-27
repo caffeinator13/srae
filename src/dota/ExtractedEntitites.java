@@ -38,7 +38,10 @@ public class ExtractedEntitites {
 		ContentHandler handler = AutoDetectParse.autoDetectParse();
 			
 		String[] sentences = Opennlp.SentenceDetect(handler.toString());
-			//putting all the sentences from sentencedetect to a hashmap, something is not working well.
+			//putting all the sentences from sentencedetect to a hashmap,  
+			//sentence detector of opennlp doesn't work that good for our case
+			//as we are using resumes, sentence enders are not properly metnioned in the most
+			//method used in findWord.java class is optimal method.
 		for(int i = 0 ; i < sentences.length; i++)
 		{
 		   jdsentencemap.put(sentences[i], sentences[i]);

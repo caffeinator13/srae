@@ -13,7 +13,7 @@ import opennlp.tools.tokenize.WhitespaceTokenizer;
 public class Main {
 	 public static void main( String[] args) throws Exception
 	    {
-		
+		 
 		ContentHandler handler = AutoDetectParse.autoDetectParse();
 		System.out.println("Name : " + java.util.Arrays.toString(Opennlp.extractNoun(Opennlp.POSTagNOPerformanceMonitor(handler.toString()))));
 		//Opennlp.Tokenize(handler.toString());
@@ -38,7 +38,7 @@ public class Main {
 	    } */
 	    Opennlp.findOrganization(tokens);
 	    Opennlp.findSkills(tokens);
-	   // findWord.experience();
+	    findWord.experience();
 	    
 	 /**  Opennlp.Parse(handler.toString()); 
 		Opennlp.POSTagger(handler.toString());
