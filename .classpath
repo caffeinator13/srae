@@ -23,6 +23,5 @@
 	<classpathentry kind="lib" path="lib/opennlp-uima-1.5.3.jar"/>
 	<classpathentry kind="lib" path="lib/opennlp.addons.modelbuilder.impls.jar"/>
 	<classpathentry kind="lib" path="lib/opennlp.addons.modelbuilder.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-core/2.5.0/uimaj-core-2.5.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
