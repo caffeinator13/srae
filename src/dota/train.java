@@ -28,7 +28,7 @@ import opennlp.tools.util.InvalidFormatException;
 
 /**
  * this is a duplicate of AutoDetectParse.java which can be directly used to get
- * the output into a textfile.
+ * the output into a textfile. input can be any document in any format
  */
 public class train {
 	public static void main(String[] args) throws Exception {
@@ -58,9 +58,7 @@ public class train {
 		PrintStream ps = new PrintStream(fos);
 		System.setOut(ps);
 		// System.out.println(metadata);
-		// System.out.println(handler.toString());
-		// Opennlp.Tokenize(handler.toString());
-		Opennlp.SentenceDetect(handler.toString());
+		System.out.println(handler.toString());
 		System.setOut(console);
 		System.out.println("Done!");
 	}

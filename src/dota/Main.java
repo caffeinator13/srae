@@ -4,40 +4,36 @@ package dota;
  * This is the Main class!
  */
 
-import java.util.StringTokenizer;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 
 import org.xml.sax.ContentHandler;
 
-import opennlp.tools.tokenize.WhitespaceTokenizer;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-
+		
 		ContentHandler handler = AutoDetectParse.autoDetectParse();
+		
 		System.out.println("Name : " + java.util.Arrays
 				.toString(Opennlp.extractNoun(Opennlp.POSTagNOPerformanceMonitor(handler.toString()))));
 		// Opennlp.Tokenize(handler.toString());
 		String[] tokens = Opennlp.Tokenize(handler.toString());
-		for (String a : tokens)
-			RegExExtracts.isEmailValid(a);
-		for (String a : tokens)
-			RegExExtracts.isPhoneNumberValid(a);
-		/**
-		 * trying to get the email id's which have '.' and '_' from a sentence
-		 * 
-		 * String sentences[] = Opennlp.SentenceDetect(handler.toString());
-		 * for(int i=0;i<1;i++){
-		 * 
-		 * StringTokenizer t=new StringTokenizer(sentences[i]," =,;"); while
-		 * (t.hasMoreTokens()) {
-		 * 
-		 * RegExExtracts.isEmailValid(sentences[i]);
-		 * 
-		 * //System.out.print(t.nextToken()); }
-		 * 
-		 * 
-		 * }
-		 */
+		//Opennlp.SentenceDetect(handler.toString());
+	
+		FileInputStream fstream = new FileInputStream("src/dota/resources/out.txt");
+		BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+		String strLine;
+		while ((strLine = br.readLine()) != null) {
+			String[] token = strLine.split("\\s+");
+			for (String a : token) {
+				// System.out.println(a);
+				RegExExtracts.isEmailValid(a);
+				RegExExtracts.isPhoneNumberValid(a);
+			}
+		}
+		
 		Opennlp.findOrganization(tokens);
 		Opennlp.findSkills(tokens);
 		findWord.experience();

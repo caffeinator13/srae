@@ -39,7 +39,10 @@ public class compare {
 	public static void main(String[] args) throws IOException {
 		ArrayList<String> file1;
 		ArrayList<String> file2;
+		ArrayList<String> file3;
+		ArrayList<String> file4;
 		ArrayList<String> out = new ArrayList<String>();
+		ArrayList<String> finalout = new ArrayList<String>();
 		file1 = load("src/dota/resources/file1.txt");
 		file2 = load("src/dota/resources/file2.txt");
 		for (int i = 0; i < file1.size(); i++) {
@@ -58,8 +61,32 @@ public class compare {
 				}
 			}
 		}
-		System.out.println(out);
+		//System.out.println(out);
 
 		write(out, "src/dota/resources/common.txt");
+	/**	String st = new String ("src/dota/resources/common.txt");
+		String[] tokens = st.split("\\s+");
+		Opennlp.findSkills(tokens); */
+		file4 = load("src/dota/resources/knownSkills.txt");
+		file3 = load("src/dota/resources/common.txt");
+		for (int i = 0; i < file3.size(); i++) {
+			String word1 = file3.get(i);
+			for (int z = 0; z < file4.size(); z++) {
+				if (word1.equalsIgnoreCase(file4.get(z))) {
+					boolean already = false;
+					for (int q = 0; q < finalout.size(); q++) {
+						if (finalout.get(q).equalsIgnoreCase(file3.get(i))) {
+							already = true;
+						}
+					}
+					if (already == false) {
+						finalout.add(file3.get(i));
+					}
+				}
+			}
+		}
+		System.out.println("Matching skills of the Candidate: " +finalout);
+
+		write(finalout, "src/dota/resources/matchingSkills.txt"); 
 	}
 }

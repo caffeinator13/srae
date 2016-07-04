@@ -1,0 +1,500 @@
+Pratap Kumar Sahoo
+
+Mobile: 9986492110
+Email: pratap.ku.sahoo@gmail.com
+Objective
+
+
+                      To achieve an aspiring and earnest position that not only supplements my present knowledge but also enhances my Technical and Creative skills and drives me towards a challenging career in a growth oriented organization.
+Summary
+
+· 6 years of experience in Software Designing and Development in Web Applications using Java and J2EE technologies in Telecom domain(OSS,BSS),Logistic domain and Healthcare.
+· 1 year of experience in Mobile Application Development using Cross Platform technologies like 
+Phonegap1.1 with HTML5, JQuery, JQuery UI Mobile, AJAX and Flex4.5 Mobile Framework.
+· 2 years of experience in Adobe’s RIA technologies Flex3.0 and ActionScript 3.0 for Rapid Application Development.
+· 1 year of experience in leading a module and team.
+Have experience in customer facing, capturing requirement, understanding and implementing.
+· Good skills on Core Java, JDBC, Struts1.1,
+Spring and  Hibernate
+· Proficiency in designing dynamic web pages using HTML, JSP, Flex3.0.
+· Experienced in the usage and creation of database objects including triggers, stored procedures in Oracle RDBMS.
+· Following Agile Software Development Process and TDD.
+· Have shown exceptional learning and re-skilling abilities across a spectrum of technologies with rapid grasp, complemented within successful practical implementations.
+· Good logical, analytical and communication skills.
+· Dedication and drive as a hard-working individual.
+Experience Summary
+
+· Working as Technology Consultant in HP since Oct 2010 to till date.
+· Worked as Technical Associate in TechMahindra Ltd since Feb. 2007 to Oct 2010.
+Qualification
+
+BE in CSE from Utkal University with First Division (69%).
+10+2 in Science from CHSE with First Division (74%).
+10th from B.S.E with First Division (78%).
+Skill set
+
+       Mobile Technologies
+: Phonegap, HTML5, JQuery, JQueryUI Mobile, AJAX and  Android SDK
+
+Operating Systems                          
+
+: Windows, UNIX
+       Programming Languages              
+
+: Java, J2EE, PL/SQL
+       Web Technologies                        
+
+: Servlet 2.1, JSP1.2,
+JSTL, HTML, XML, XSLT
+       Scripting Languages                
+: Freemarker (FTL), Action script 3.0, JavaScript, Perl,      UNIX Shell Scripting.
+Component Technologies
+
+
+: MDB, Java Beans
+
+       Application Server
+
+
+: Weblogic 9.2, Tomcat 5.0
+
+       Database                                      
+: Oracle 10g
+       IDES(s)                                       
+
+: Eclipse 3.2, Borland Together 2006.
+Framework Technologies        
+
+: Struts 1.1, Spring, Hibernate, Flex3.0
+Configuration Management Tool
+: SVN, VSS and Borland StarTeam.
+Content Management
+
+
+: Alfresco and Adobe CQ5.
+WORK EXPERIENCE
+
+HP GlobalSoft (Oct 2010 to till date)
+Mobility
+Project #1: MediaManager
+Client
+
+
+: DreamWorks Animation
+
+Description: 
+A groupware tool which allows the user to share and review the ongoing movie trailers with their coworkers and enables a more effective collaboration.
+Functionality:
+· Categorized video list which provides the key info about each available video.
+· Paginated view of video list.
+· Pull down refresh functionality for video list.
+· Video search based on the tag.
+Video details page with video player functionality.
+Video download/delete option.
+· Features to add/view/reply/edit/delete comments.
+Paginated view of comments.
+Pull down refresh option for comments.
+Sort comment based on timeline, people, date time.
+Search comment based on comment text.
+· Offline access and submission capability.
+· Can be accessed from any device through the HP Anywhere container.
+· Utilized the EMG Key features such as Client/Server side pagination,Client/Server side caching, Offline submission.
+Responsibilities:
+
+· Capturing requirements, estimating and delivering on time.
+· Leading the Server side modules.
+· Designed the server side components and services.
+· Implemented the Alfresco Webscript and REST services for MediaManager Application.
+· Alfresco content modeling and MySQL database design.
+· Coding in Webscript includes Javascript, JSON and Fremarker(FTL)
+· Written the REST services using Spring.
+Environnement: HP Enterprise Mobility Platform(HP EE,HP EMG),Sencha touch,CSS, Alfresco CMS,Webscript(Javascript,Freemarker,JSON),MySQL,Java,Spring,Eclipse,Tomcat.
+Project #2: EMOFID
+Client
+
+
+: HP (Italy)
+
+Description: 
+NFC Application is a mobile application used by medical operators in the hospitals to read/write the RFID Tags and do the transfusion to match the blood bag with patient blood samples.
+Medical operator can match the bags and sample using following RFID Tags
+
+•         Operator Badge
+
+•         Patient Bracelet
+
+•         Blood Bag
+
+•         Blood Sample
+
+ NFC Application User interaction screens are developed using Html 5 , JQuery and Javascript .
+The Application to be developed is primarily targeted for the Samsung Nexus S Android phone (Android 2.3.3
+Gingerbread) having NFC capability.
+Data synchronization is done to sync the local database with EMOFID server Database on event based model.
+The data exchange during the synchronization is done by using web services.
+During the synchronization, the application receive the latest patient records and store in the device local DB.
+It also sends the transfusion data saved on the device.
+After sending the data, the application receives the updated list of patients from the EMOFID server.
+It replaces its current list with the updated list.
+It also wipes out its current transfusion records that have been sent to sever.
+Responsibilities:
+
+· Leading the module 
+
+· Customer facing, capturing requirements, estimating and delivering on time.
+· Daily sending the status report.
+· Phonegap Plug-in designing, coding
+
+· Writing the SQL Cipher Plugin
+
+· Writing File Handling utilities using Phonegap API.
+· Coding in HTML5, JQuery, AJAX.
+Environnement: Phonegap, HTML5, JQuery, AJAX, Android NFC Plugin, WEBSERVICE.
+Project #3: Valentino on SUP
+Client
+
+
+: HP(Italy)
+Description: 
+
+Valentino offers a wide range of luxury products from Haute Couture to an extensive accessories collection that includes bags, shoes, small leather goods, belts, eyewear, watches and perfumes.
+This application was developed to showcase the Valentino products on I-Pad, having swipe and Zoom feature for the product images.
+It was developed for Valentino Clients/ partner to showcase the available products and allow them to configure their contact information and allows them to add items in their wish list.
+It was having email facility to send the Wish list to Valentino configured email ids.
+All the images and data were retrieved from the database and Air printing option for printing the wish list.
+SUP is used as middleware to fetch data.
+Responsibilities:
+
+· Leading the module 
+
+· Customer facing, capturing requirements, estimating and delivering on time.
+· Daily sending the status report.
+· Writing WebScripts.
+· Customization of Alfresco and data modeling.
+Environnement: Alfresco CMS on Windows, Spring Suite Tool, HTML, Javascript, AJAX, XCode, Objective C, iOS5.
+Project #4: Shell Forum App.
+Client
+
+
+: Shell
+
+Description: 
+
+SEF Forum App is used by the Desk hostess to add and register the attendants.
+The Event Manager can see the list of events.
+Features
+· Registering attendants by Desk hostess.
+· Capturing Image.
+· Feedback Questionnaire.
+· Pinch Map Image
+
+Responsibilities:
+· Designing of Register module and coding using AJAX, JQuery.
+· Designing and implementation of Feedback Module.
+· Designing and implementation of Feedback Questionnaire Module in Web using CQ5.
+· Using IScroll JQuery Plug-in to pinch and zoom image.
+· Capturing Image using Phonegap API.
+Environnement: Adobe CQ5 on Windows, Phonegap, HTML5, Javascript, AJAX 
+Project #5: Valentino POC.
+Client
+
+
+: Valentino (HP Italy)
+Description: 
+
+The Fashion Catalogue application to showcase latest collections and Events
+Features
+· Swipe, Pinch, Zoom gestures to browse collection items
+
+· Store locator to view stores worldwide
+
+· Video to display the fashion show event 
+
+· Stay connected to get updates from the brand
+
+· Thumbnail view with large images
+
+· Wish list management
+Responsibilities:
+
+· Designing and converting the UI in IOS Platform to Flex UI Mobile.
+· Analyzing and converting the functionalities in ActionScript.
+Tool and Technologies: Flex 4.5 and FlashBuilder 4.5,iPad, Samsung Galaxy Tab.
+Project #6: Twitter Trend.
+Client
+
+
+: Prototype
+Description: 
+
+Tweeter trend is a social network analysis application, providing top 10 twitter trend.
+Features
+· Display Top 10 Twitter Trends
+
+· View User List who tweet on a topic
+
+· View all tweets from a User
+
+Responsibilities:
+
+· Designing and coding different Mobile Views.
+· Writing the services to get the top twitter trends.
+Tools and Technologies: Flex 4.5 and FlashBuilder 4.5, Android, Blackberry Playbook.
+Web
+Project #1: BRIAN CEVA
+Duration
+
+: Oct 2010 to Aug 2011
+Client
+
+
+: CEVA
+Description: 
+
+ CEVA One of the world’s leading logistics companies, providing end-to-end design, implementation and operational capabilities in freight forwarding, contract logistics, transportation management and distribution management.
+BRIAN CEVA is a new integrated Transport Platform.
+It provides the following features:
+
+· Fast User Operativity
+
+· Mouseless interaction (everything by keyboard)
+
+· Easier fields filling (to replicate the consolidated user experience)
+
+· Check field validity at insert time
+
+· Automatic filling of dependend fields
+
+· Direct search from static data at field filling
+
+· Field Pre-filling with default values
+
+· Multilanguage support
+
+Responsibilities:
+
+· Estimating Business requirements.
+· Participate in Solution Design, Low Level Design and investigate the impact on BAU.
+· Code and Code Walkthrough.
+· Understanding the business Flow.
+· UI Design and Coding in Flex 3.0 and Java.
+· Writing the Server side components using Spring and hibernate.
+· Unit Testing and Following TDD.
+· Fault Resolution and Bug Fix.
+· Leading the System Testing.
+Environnement: Java 1.5, Flex 3.5, Spring, Hibernate, Weblogic 9.2, Eclipse3.0,
+Oracle10g and BRIAN Framework and Wizard.
+Project #2: ExstreamEdge Portal
+Duration
+
+: Aug 2011 to October 2011
+Client
+
+
+: CEVA
+Description: 
+
+ExstreamEdge portal is fast, centralized solution providing access to thousands of documents, data records and reports.
+The Exstream EDGE portal helps the ExstreamEdge Sale Person how to use Exstream Products, to solve a business problem in an efficient, quick manner.
+With documents and data spread over many systems, finding the right information quickly was no simple task - contributing to long ramp-up time for new hires, and hours of research wasted by even the most experienced of Exstream Sales representatives.
+Features:
+· Extended User Profile & application meta-data
+
+User profiles synchronized from HP LDAP 
+
+· Document Ratings
+
+Ratings stored in the EE DB
+
+· Enhanced Search (Free Text, Meta-data based)
+
+join across multiple data sources & profile matching
+
+· Landing Page Administration
+
+Leadership Message, Announcement Updates
+
+· Reporting and Tracking
+
+Document, Wizard Usages, Search Performed, Doc rated etc. (audit log)
+
+· Complex Wizard & Reports
+
+· Link to additional static HTML’s 
+
+New hire training, different industry materials etc.
+
+· Social networking via Recent Events 
+
+Ring the bell, Doc rating updates
+
+· Security (Authentication using HP NTLM)
+
+User synchronization, Document Index & content security (using MRU) 
+
+· Rich Internet Application UI 
+
+Add-on icons for effective communication to people
+
+Using the portal the ExstreamEdge sales person is benefited by the following.
+· Find Sales Enablement materials (solutions information, sales aids etc.)
+
+· Find documents from multiple SharePoint sites using a quick, efficient search which is customized to your personal needs
+
+· Find out what documents others are using and recommending 
+
+· Find people (in and out of HP) who might help you with your sale
+
+· Find reference accounts by name, by product, by industry and more
+
+· Obtain customer information, such as product configuration and operating system, support tickets, product download information and more
+
+· Mine win/loss data in seconds
+
+· Create your own interactive playbooks
+Responsibilities:
+
+· Estimating Business requirements.
+· Participate in Solution Design, Low Level Design and investigate the impact on BAU.
+· Code and Code Walkthrough.
+· Understanding the business Flow.
+· UI Design and Coding in Flex 3.0 and Java.
+Environnement: Java 1.5, Adobe Flex 3.5, Tomacat 6, Eclipse3.0,
+MYSQL, LAL, SharePoint, Solr, Adobe CQ5, Entropysoft, LDAP.
+TechMahindra Ltd (Feb 2007 to Oct 2010)
+Project #1: rPACS
+Duration
+
+: Feb 2009 to till date.
+Client
+
+
+: BT GS
+
+Description:
+
+        It’s a complete solution for managing network (BT’s SDH Network) including:
+
+· Planning (new network)
+
+· Assignment (of new services)
+
+· Configuration (of network elements)
+It ensures that multi-technology, multi-vendor transmission networks are managed effectively, efficiently and reliably.
+Manages the whole engineering lifecycle from network planning through to service implementation.
+It Provides industry leading levels of productivity and helps maximise the utilisation of network assets.
+rPACS provides the following:
+
+· Service provisioning
+
+· Structure Planning.
+· Equipment Modelling.
+· Network Schemes.
+· Electronic Documentation.
+· Visualisation.
+· Capacity Management.
+· Scalability.
+As a CR Owner and being a Developer is responsible for the following activities.
+·  Estimating Business requirements.
+· Participate in Solution Design, Low Level Design and investigate the impact on BAU.
+· Code and Code Walkthrough.
+· Understanding the business Flow.
+· UI Design and Coding in Flex 3.0 and Java.
+· Unit Testing and Following TDD.
+· Fault Resolution and Bug Fix.
+· CST, CIT and E2E support.
+Environment: Java 1.5, Flex 3.0, Jsp, Servlert, Jdbc, Weblogic 9.2, Eclipse3.0,
+Oracle10g.
+Project #2: AB+ Transformation
+Duration
+
+: Aug2008-Jan2009
+Client
+
+
+: BT GS
+Description:
+
+BT Global Services (GS) is responsible for managing the customer relationship of BT’s global enterprise customers across geography units: UK, Europe, Asia Pacific, and America.
+AB+ Program caters to the following needs
+
+·    Transformation of legacy systems to strategic stack across geographies.
+·     Speeding up of the billing process.
+·     To improve the RFT and CT.
+Among the various components involved in the above Program Order Service Management being one among them performs the following functions:
+·     Creates order templates.
+·     Receive order from Siebel+ and route it to appropriate provisioning system.
+·     Send KSU’s from downstream systems to upstream system.
+·     Send the billing notification to BAL via BPEL/ESB systems upon the completion of provisioning of         order.
+·    Provide UI for manually entering the response from the order fulfillment systems like Orion.
+As a Developer is responsible for the following activities:
+
+·    Involve in the POC by writing the code for stubs.
+·    Writing the XSLT for transformation
+·    Writing the java plug-in for different cartridges.
+·    Handling the cartridges by adding/modifying the framework rules, views.
+·    Unit testing and test plan
+
+·    Preparing the test data for unit testing.
+Environment: Java5.0,
+Weblogic 9.2, JMS, MDB, XML, XSLT, Eclipse, Oracle 10g, Shell Scripting, Sun Solaris.
+Project #3: Customer Based Price Package (ADDER)
+Duration
+
+: Apr 2007-July2008
+Client
+
+
+: BT Retail
+Description:
+BT (British Telecom) is one of the largest telecom service providers in the United Kingdom.
+They have a very strong customer base in the United Kingdom.
+They offer a wide Variety of telecom products to their business customer & domestic customers.
+The ADDER system deals with the various commitment level products for British Telecom where new installations being added, modified and moved between contracts of various Customer Networks.
+The system essentially keeps track of these changes to ensure business by paying discounts and commissions to the customer depending upon some usage contracts and also increases the profitability to the Client.
+Responsibilities:
+· Coding & Code walkthrough.
+· Participate in Designing.
+· Prepare test data for unit testing.
+· Writing Junit Test cases.
+· Preparation of unit test specification, Integration test plan and User Acceptance test plan.
+· Fill the defect log report after testing.
+· Faults resolutions.
+· CST, CIT and E2E Support.
+Environment: Java, JSP, Servlet, JDBC, Struts, Bea Weblogic 8.1, Web Service, Eclipse, Shell scripting, Perl, Oracle10g, Sun Solaris 5.8.
+Personal details
+
+Father’s Name
+
+: Bidyadhar Sahoo
+
+Date of Birth
+
+: 05-05-1982
+
+Sex
+
+
+: Male
+Marital Status
+
+: Single
+
+Nationality
+
+: Indian
+
+Passport No                  : G3009462
+Self Sketch: Ambitious, hardworking, dedicating, optimistic.
+Declaration:I herewith declare that all of the above information furnished here is true to the best of my knowledge.
+Place: Bangalore
+
+
+
+                                        Pratap Kumar Sahoo.
+Date: 
+
+PAGE  
+1
+
+

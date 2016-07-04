@@ -1,0 +1,193 @@
+
+
+SIDDHARTH DASGUPTA
+Email: siddharthdg@gmail.com  Mobile : +91 9739655330 URL : http://www.linkedin.com/in/siddharthdg
+
+OBJECTIVE
+
+Have a challenging career in enterprise level application design and development.
+
+EXPERIENCE SUMMARY
+
+Having 2.8 years of experience in Java enterprise and web based application development for telecom clients on multi-tier architecture using MVC, JSP, Servlets, Java Beans, JDBC and EJB.
+
+TECHNICAL SUMMARY
+
+· Operating systems
+: Linux, UNIX and Windows XP
+
+· Languages
+: Java & J2EE
+· Environment
+: J2EE, Struts/MVC, EJB, Servlets, Apache Tomcat
+
+
+· Tools
+: Ant, SVN, Hibernate, ECACHE, XHTML ,XML, 
+
+  HP Quality Center, WINSCP, PUTTY
+· RDBMS
+: Oracle  SQL 
+· Application /Web servers
+: Apache Tomcat 5.x, Jonas 4.X,Weblogic
+· Products
+: Comverse One CSS(Netanomy)
+CERTIFICATIONS
+
+· Sun Certified Java Programmer  5.0 (SCJP) 
+
+· Candidate ID: SR6236588
+EDUCATION
+
+· Bachelor of Engineering(Information Science)      : RNSIT, Visvesvaraya Technological University 
+· Intermediate
+
+
+
+
+: The Daly College Indore (C.B.S.E)
+· SSC
+
+
+
+
+
+: The Daly College Indore (C.B.S.E)
+EMPLOYMENT HISTORY
+CAPGEMINI INDIA, BANGALORE
+
+
+Consultant
+
+Projects:
+
+Mobistar Self-care & CRM:
+
+
+25 Feb 2010 to Current
+
+Client: Mobistar
+
+
+Role and Responsibility:
+-Responsible for development & customization 
+
+-Consumer Portal Functional Lead
+
+-Environment Setup 
+
+Description: 
+Mobistar Program is an IT Renewal project with Comverse One product where our team is responsible for delivering Self-Care & CRM portal which are part of the Comverse One Suit. Where Self-care portal is targeted for prepaid, postpaid & converged clients and CRM portals are for telecom users & partners.
+
+Technologies:
+Java, J2EE, JSP & Servlets, Web Service , CSS, Unix, Comverse One 3.5.xx CSS (Netonomy), Web service, SSH Gateways, Tunneling, SCP Scripts
+
+Projects:
+
+Business Process Management:
+
+
+28 Dec 2009 to 23 Feb 2010
+
+Client: France Telecom
+
+
+Role and Responsibility:
+Responsible for support & maintenance 
+
+Description: 
+SEM-GPM (Conversion of Prepaid user to Postpaid User)
+The process of conversion from prepaid to postpaid involves updating various application across FT which was achieved by developing a middleware.  The middleware (SEM-GPM) was developed on a SOA architecture. Which would seamlessly migrate a user from prepaid to postpaid. 
+
+Technologies:
+Webmethod 7, Shell Scripting, Java/J2EE & JoNAS application server
+
+Internal Web Portal :
+
+Throughout 2009
+
+Client: Capgemini Internal
+
+
+Role and Responsibility:
+Development & Maintenance.
+
+Description:
+
+ITSC Portal was an internal portal for the telecom business unit which has features like quizzes, blogging, forums, daily updates , clients info , projects, etc
+
+
+Technologies:
+
+XAMPP, Joomla & PHP
+Android:
+
+08 Sept 2009 to 01 Oct 2009
+
+Client: Capgemini Internal
+
+
+Role and Responsibility:
+Development of the UI & interface with external servers.
+
+Description:
+
+Android is an internal capgemini project where various applications for the Google Mobile Platform Android are developed.
+
+
+Technologies:
+
+Android SDK 1.5, ADT-0.9.1 & DoidDraw
+Orange Mobile Portal:
+
+10 Aug 2008 to 15 Sept 2009
+
+Client: Orange Telecom
+
+
+Role and Responsibility:
+I took part in Testing during the integration phase of the project.
+
+Description:
+
+Tracking is an application which is used to generate stastical data, based on the usage of the portal.
+
+Technologies:
+
+Java, Web Service, Open Reports & HP Quality center
+
+VEGAS: 
+
+27 Sept 2008 to 7 Aug 2009
+
+
+(Awarded Project Star for VEGAS)
+
+
+Client: France Telecom
+
+
+Role and Responsibility:
+I took part in design, development and integration phase of the project.  Apart from development I was involved in Functional and Non-Regression testing. 
+
+Description: 
+France Telecomm is the telecom service provider in Europe.
+
+VEGAS is a France Telecomm project that deals with the Sales, Collection and Stock management system of the France Telecom shops.
+
+Vegas-Web is the intranet of France Telecom.
+
+It involves planning of call, the management of the inventories and the report writing of stock and accountants
+Other Module Isiweb acts interface to interact with external applications
+
+Technologies:
+
+Java, J2EE, JSP & Servlets, Web Service, Jonas Server, SQL Server  
+
+.
+
+- 1 -
+        SIDDHARTH DASGUPTA 
+
+
+

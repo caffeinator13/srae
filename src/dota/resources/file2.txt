@@ -1,0 +1,59 @@
+Job Title:  Sr.
+Android Developers
+Job Description:
+At Indpro , we are looking for Sr. Android  Developers , independently contributing to Android based mobile application development.
+Ideal Candidate should have
+1.
+Minimum 4 years experience of professional Java development 
+
+2. Excellent programming knowledge in Core Java 
+
+3. Excellent knowledge of OOP concept and object oriented analysis and design 
+
+4. Minimum 4 year experience of Android development 
+
+5. In-depth knowledge of Android SDK 
+
+6. Android application testing experience 
+
+7. Knowledge of Android design guidelines 
+
+8. Experience from Google Play and publishing signed APK 
+
+9. Excellent skills in databases and SQL 
+
+10.
+JSON experience 
+
+11.
+Source code handling with a repository preferably with SVN 
+
+12. Knowledge of Linux 
+
+13.
+Good communication skills, both written and verbal 
+
+14.
+Experience with direct communication with customer 
+
+15.
+Used to work with SCRUM
+Mandatory Skills:
+
+· Core Java 
+
+· Android SDK
+
+Secondary Skills :
+
+· Web Services
+
+· XML
+
+· JSON
+
+· UI Design Skills
+
+Keywords:
+Android SDK and Core Java
+

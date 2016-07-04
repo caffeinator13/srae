@@ -44,14 +44,15 @@ public class AutoDetectParse {
 		} catch (TikaException e) {
 			e.printStackTrace();
 		}
-		/**
-		 * PrintStream console = System.out; File file = new File("out.txt");
-		 * FileOutputStream fos = new FileOutputStream(file); PrintStream ps =
-		 * new PrintStream(fos); System.setOut(ps);
-		 * //System.out.println(metadata);
-		 * //System.out.println(handler.toString());
-		 * Opennlp.SentenceDetect(handler.toString()); System.setOut(console);
-		 */
+		
+		 PrintStream console = System.out; File file = new File("src/dota/resources/out.txt");
+		 FileOutputStream fos = new FileOutputStream(file); 
+		 PrintStream ps = new PrintStream(fos); System.setOut(ps);
+		 //System.out.println(metadata);
+		 //System.out.println(handler.toString());
+		 System.out.println(handler.toString());
+		 System.setOut(console);
+		 
 		return handler;
 
 	}
