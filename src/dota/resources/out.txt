@@ -1,193 +1,119 @@
 
+B.ABHISHEK 
+E3-103, MS HALL OF RESIDENCE 
 
-SIDDHARTH DASGUPTA
-Email: siddharthdg@gmail.com  Mobile†: +91 9739655330 URL†: http://www.linkedin.com/in/siddharthdg
+IIT KHARAGPUR, WEST BENGAL 721302 
 
-OBJECTIVE
+ abhishekbagati@iitkgp.ac.in 
++91-7407461154 
 
-Have a challenging career in enterprise level application design and development.
+ 
+Position Objective: 
+ 
 
-EXPERIENCE SUMMARY
+I am looking for a challenging opportunity for an internship in the field of Electronics in the following summer and 
+gain some research experience in this field. I am seeking to complement this outdoor experience with a research 
+internship in order to acquire the background necessary for a future career in scientific research. 
+ 
 
-Having 2.8 years of experience in Java enterprise and web based application development for telecom clients on multi-tier architecture using MVC, JSP, Servlets, Java Beans, JDBC and EJB.
+Internships and Academic Projects: 
+ÔÇ∑ Successfully completed an Internship at SELCO Labs, SELCO Foundation, Bengaluru with a project on   
 
-TECHNICAL SUMMARY
+Metering Solutions and Data-Logging for Solar Mini-Grids. The project aimed at Data-Logging using     
+MSP430 and interfacing with an SD card. 
 
-∑ Operating systems
-: Linux, UNIX and Windows XP
+ÔÇ∑ Developed a Low Cost Automatic water level controller at SELCO Labs, Bengaluru. 
+ÔÇ∑ Successfully completed an Internship at EmbeddedRF Technologies, Hyderabad with a project on 
 
-∑ Languages
-: Java & J2EE
-∑ Environment
-: J2EE, Struts/MVC, EJB, Servlets, Apache Tomcat
+Embedded Systems in July, 2013. The project aimed at making an attendance system model based on RFID 
+Technology. 
 
+ÔÇ∑ Successfully completed the Web-Designing course at RIMS Animation Training Center, Hyderabad. 
+ÔÇ∑ Awarded a certificate of excellence in IP addressing and networking course from BSNL Online Certificate 
 
-∑ Tools
-: Ant, SVN, Hibernate, ECACHE, XHTML ,XML, 
+Program in June, 2013. 
+ÔÇ∑ Designed a Wein Bridge Oscillator as a part of mini-project  aimed at making a working model of a 
 
-  HP Quality Center, WINSCP, PUTTY
-∑ RDBMS
-: Oracle  SQL 
-∑ Application /Web servers
-: Apache Tomcat 5.x, Jonas 4.X,Weblogic
-∑ Products
-: Comverse One CSS(Netanomy)
-CERTIFICATIONS
+            Wein Bridge Oscillator to generate 40 KHz frequency. 
+ 
+Position of responsibilities 
+ 
 
-∑ Sun Certified Java Programmer  5.0 (SCJP) 
+Member                                                                                                                                    2013 - till date 
+Solar Energy Society of India. 
 
-∑ Candidate ID: SR6236588
-EDUCATION
+ 
+Academic Achievements 
 
-∑ Bachelor of Engineering(Information Science)      : RNSIT, Visvesvaraya Technological University 
-∑ Intermediate
+ 
+‚¶Å Qualified among top 0.90% of 550,000 in IIT JEE (Joint Entrance Examination). 
+‚¶Å    Qualified among top 0.5% of 1.18 million students in AIEEE. 
+‚¶Å    Awarded Silver Medal at Srinivasa Ramanujam Mathematics Potential Olympiad, 2006.                          
+‚¶Å    Top 10% scorers in Association of Mathematics Teachers of India Examination (AMTI), 2005. 
 
+ 
+Skill set 
 
+Programming  
+‚¶Å    C, EMBEDDED C, HTML, CSS. 
 
+Software  
+‚¶Å    Adobe Photoshop, Adobe Illustrator, Adobe Dreamweaver, Adobe 
 
-: The Daly College Indore (C.B.S.E)
-∑ SSC
+Flash, Adobe Audition, Audacity, Code Composer Studio. 
+Technical  
 
+‚¶Å   MATLAB, Pspice, Proteus, Keil Œºvision. 
 
+Languages  
+‚¶Å   English, Hindi, Telugu, Basic Kannada, Basic Tamil. 
 
+ÔÉº Certificate Course in English Proficiency, 2012, English and Foreign Languages University 
 
+ 
 
-: The Daly College Indore (C.B.S.E)
-EMPLOYMENT HISTORY
-CAPGEMINI INDIA, BANGALORE
+ 
 
 
-Consultant
 
-Projects:
+Extra-Curricular activities 
+‚¶Å     Member of Bronze medal winning Inter hall Hockey team in 2014-15 at MS Hall, IIT Kharagpur.  
+‚¶Å     Won Bronze medal in open IIT English Dramatics, 2013 at IIT Kharagpur. 
+‚¶Å     Member of Inter hall Hockey team in 2011-12 at MMM Hall, IIT Kharagpur.                           
+‚¶Å     Member of Inter hall Athletics team in 2012-13 at MS Hall, IIT Kharagpur. 
+‚¶Å     Member of Inter hall Football team in 2012-13 at MS Hall, IIT Kharagpur.  
+‚¶Å     Member of Inter hall choreography team in 2012-13 at MS Hall, IIT Kharagpur. 
+‚¶Å     Drummer and Guitarist at Meghnad Saha Hall of Residence, IIT Kharagpur. 
+‚¶Å     Member of Inter hall Ad-design team in 2014 at MS Hall, IIT Kharagpur 
 
-Mobistar Self-care & CRM:
+ 
+ 
 
+Academic Details: 
+ 
+Fourth Year 
 
-25 Feb 2010 to Current
+    Indian Institute of Technology, Kharagpur. 
+ 
+Relevant Courses Taken: Electrical Technology ,Introduction to Electronics, Semiconductor devices, Network 
+Theory, Linear & Matrix Algebra, Signals & Systems, Electromagnetic Engineering, Analog Electronics, Analog 
+Communication, Digital Communication, Digital Signal Processing, Radio Frequency & Microwave Engineering, 
+Control Systems, Sociology of Science, Entrepreneurship in Social sector. 
+ 
+Extra Courses done out of Interest: 
 
-Client: Mobistar
+‚Ä¢ Introduction to renewable energy at solar energy International (online course). 
+‚Ä¢ Solar Energy at DELFT university, Netherlands through EDX (online course)-This course introduced me to the 
 
+variety of technologies that harvest the solar energy and solar light, and convert it to electricity, heat or fuels. 
+‚Ä¢ Introductory Solar Energy at Schoology (online course). 
 
-Role and Responsibility:
--Responsible for development & customization 
+ 
+ 
 
--Consumer Portal Functional Lead
-
--Environment Setup 
-
-Description: 
-Mobistar Program is an IT Renewal project with Comverse One product where our team is responsible for delivering Self-Care & CRM portal which are part of the Comverse One Suit. Where Self-care portal is targeted for prepaid, postpaid & converged clients and CRM portals are for telecom users & partners.
-
-Technologies:
-Java, J2EE, JSP & Servlets, Web Service , CSS, Unix, Comverse One 3.5.xx CSS (Netonomy), Web service, SSH Gateways, Tunneling, SCP Scripts
-
-Projects:
-
-Business Process Management:
-
-
-28 Dec 2009 to 23 Feb 2010
-
-Client: France Telecom
-
-
-Role and Responsibility:
-Responsible for support & maintenance 
-
-Description: 
-SEM-GPM (Conversion of Prepaid user to Postpaid User)
-The process of conversion from prepaid to postpaid involves updating various application across FT which was achieved by developing a middleware.  The middleware (SEM-GPM) was developed on a SOA architecture. Which would seamlessly migrate a user from prepaid to postpaid. 
-
-Technologies:
-Webmethod 7, Shell Scripting, Java/J2EE & JoNAS application server
-
-Internal Web Portal :
-
-Throughout 2009
-
-Client: Capgemini Internal
-
-
-Role and Responsibility:
-Development & Maintenance.
-
-Description:
-
-ITSC Portal was an internal portal for the telecom business unit which has features like quizzes, blogging, forums, daily updates , clients info , projects, etc
-
-
-Technologies:
-
-XAMPP, Joomla & PHP
-Android:
-
-08 Sept 2009 to 01 Oct 2009
-
-Client: Capgemini Internal
-
-
-Role and Responsibility:
-Development of the UI & interface with external servers.
-
-Description:
-
-Android is an internal capgemini project where various applications for the Google Mobile Platform Android are developed.
-
-
-Technologies:
-
-Android SDK 1.5, ADT-0.9.1 & DoidDraw
-Orange Mobile Portal:
-
-10 Aug 2008 to 15 Sept 2009
-
-Client: Orange Telecom
-
-
-Role and Responsibility:
-I took part in Testing during the integration phase of the project.
-
-Description:
-
-Tracking is an application which is used to generate stastical data, based on the usage of the portal.
-
-Technologies:
-
-Java, Web Service, Open Reports & HP Quality center
-
-VEGAS: 
-
-27 Sept 2008 to 7 Aug 2009
-
-
-(Awarded Project Star for VEGAS)
-
-
-Client: France Telecom
-
-
-Role and Responsibility:
-I took part in design, development and integration phase of the project.  Apart from development I was involved in Functional and Non-Regression testing. 
-
-Description: 
-France Telecomm is the telecom service provider in Europe.
-
-VEGAS is a France Telecomm project that deals with the Sales, Collection and Stock management system of the France Telecom shops.
-
-Vegas-Web is the intranet of France Telecom.
-
-It involves planning of call, the management of the inventories and the report writing of stock and accountants
-Other Module Isiweb acts interface to interact with external applications
-
-Technologies:
-
-Java, J2EE, JSP & Servlets, Web Service, Jonas Server, SQL Server  
-
-.
-
-- 1 -
-        SIDDHARTH DASGUPTA 
+I hereby declare that the above information is true and precise to the best of my knowledge.  
+ 
+                                                                                                                           B ABHISHEK 
 
 
 

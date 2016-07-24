@@ -18,14 +18,14 @@ public class findWord {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("number of keywords : ");
 		n = sc.nextInt();
-		sc.close();
+		//sc.close();
 		for (int j = 0; j <= n; j++) {
 
 			Scanner scan = new Scanner(System.in);
 			System.out.println("give the testword : ");
 			String testWord = scan.next();
 			System.out.println(testWord);
-			scan.close();
+			//scan.close();
 		
 			//String testWord = "years";
 			File document = new File("src/dota/resources/out.txt");
