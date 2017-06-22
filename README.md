@@ -1,6 +1,6 @@
-## SRAE
+#Smart Recruitment Automation Engine
 
-**Smart Recruitment Automation Engine**
+[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 An attempt to completely automate the Recruitment process. This piece of code successfully gives us the basic contact information, skills, experience etc., from any document (Job Description/CV/Resume) independent of the document format. I would like to implement some deeplearning algo's to take this project to next level. PR's are most welcomed!
 
